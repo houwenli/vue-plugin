@@ -1,0 +1,13 @@
+.scale-enter-active,.scale-leave-active{
+  transform: scale(1);
+  opacity: 1;
+  transition: all 0.2s;
+}
+.scale-enter{
+  transform: scale(0);
+  opacity: 0;
+}
+.scale-leave-to {
+    transform: scale(0);
+    opacity: 0;
+}
